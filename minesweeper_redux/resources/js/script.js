@@ -73,7 +73,7 @@ $(document).ready(function(){
 			$grid.append(row);
 		}
 
-                $('body').css('visibility', 'visible');
+         $('body').css('opacity', 1);
 	}
 		
 	// Color for each different number
