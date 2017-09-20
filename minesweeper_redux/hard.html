@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>			
+    <script src="./resources/js/script.js"></script>
+    <title>Minesweeper Redux</title>
+  </head>
+
+  <body oncontextmenu="return false;">
+  
+    <div class="container">
+
+      <div class="header">	
+        <h1>Minesweeper <em class="redux">Redux</em></h1>
+      </div>
+
+      <div id="game" class="diffH" value=3>
+        <div id="info">
+          <div id="smileycontainer">
+            <div id="flag-count">
+              <span id="flag-h">0</span>
+              <span id="flag-t">0</span>
+              <span id="flag-o">0</span>
+            </div>
+
+            <div id="smile-button-container">
+              <button id="smilestatebutton"></button>
+            </div>
+
+            <div id="timer">
+              <span id="timer-h">0</span>
+              <span id="timer-t">0</span>
+              <span id="timer-o">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="container">
+          <div id="minefield">
+          </div>
+        </div>
+      </div>
+
+      <div class="buttoncontainer">      
+        <div>
+          <a  href="../minesweeper_redux" type="button" class="difficultybutton" id="Easy"><span>Easy</span></a>
+        </div>
+        <div>
+          <a  href="medium.html" type="button" class="difficultybutton" id="Medium"><span>Medium<span></a>
+        </div>
+        <div>
+          <a  href="hard.html" type="button" class="difficultybutton" id="Hard"><span>Expert</span></a>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
