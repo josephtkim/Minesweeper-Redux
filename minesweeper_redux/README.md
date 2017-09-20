@@ -10,6 +10,6 @@ Made using HTML, CSS and JavaScript/jQuery.
 
 Has 3 levels of difficulty: Easy, Medium and Expert.
 
-**Useful algorithms utilized:**
+**Algorithms applied:**
 
 Utilizes the Breadth-First-Search algorithm to rapidly uncover adjacent squares on the board.
