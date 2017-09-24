@@ -1,4 +1,4 @@
-#Minesweeper Redux
+# Minesweeper Redux
 
 Remake of the Windows classic Minesweeper
 
