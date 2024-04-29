@@ -1,2 +1,2 @@
-# Projects
-Repo for personal projects
+# Minesweeper Redux
+Updated implementation of Minesweeper
